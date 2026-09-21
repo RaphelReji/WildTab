@@ -42,3 +42,20 @@ function updateGreeting(){
     document.querySelector("#greetings").textContent=greetings;
 }
 updateGreeting();
+
+const form= document.querySelector("#search-form");
+const search=document.querySelector("#search");
+form.addEventListener("submit",function(event){
+        event.preventDefault();
+
+    const query = search.value.trim();
+
+    if (!query) return;
+
+    window.location.href =
+        "https://www.google.com/search?q=" +
+        encodeURIComponent(query);
+
+});
+
+
