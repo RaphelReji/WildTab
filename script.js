@@ -31,7 +31,7 @@ function updateGreeting(){
         greetings="Good morning";
     }
     else if(hour<16){
-        greetings="Good morning";
+        greetings="Good afternoon";
     }
     else if(hour<20){
         greetings="Good evening";

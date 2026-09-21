@@ -1,3 +1,7 @@
+body{
+  margin: 0;
+  font-family: cursive;
+}
 #wallpaper{
   position: fixed;
   inset: 0;
@@ -44,6 +48,7 @@ main{
     background: rgba(255, 255, 255, 0.12);
     backdrop-filter: blur(15px);
     border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: 0.3s;
 }
 #search{
   flex: 1;
@@ -64,8 +69,11 @@ main{
 }
 #greetings{
   position: fixed;
-  bottom: 30px;
-  left: 50px;
+  bottom: 100px;
+  left: 60px;
+  font-size: 40px;
+  font-family: cursive;
+  color: white;
 }
 #icons-grid{
   width: max-content;
@@ -73,6 +81,7 @@ main{
   grid-template-columns: repeat(4,1fr);
   gap: 30px;
   position: fixed;
+  margin-top: 30px;
 }
 .icons-card{
     display: flex;
@@ -95,9 +104,30 @@ main{
 .icons-card:hover{
   transform: scale(1.03) translateY(-5px);
   background: rgba(44, 243, 177, 0.192);
-   border: 1px solid rgba(9, 187, 62, 0.664);
+   border: 1px solid rgba(16, 180, 65, 0.603);
 
 }
 .icons-card img{
   width: 40px;
+}
+#settings-icon{
+  position: fixed;
+  width: 60px;
+  filter:brightness(1.2);
+  top: 40px;
+  right: 20px;
+  z-index: 2;
+  transition: 0.3s;
+}
+#settings-icon:hover{
+  transform: scale(1.03);
+}
+#settings-window{
+  top: 0;
+  right: 0;
+  position: fixed;
+  width: 300px;
+  background-color:#1e1e1e;
+  height: 100%;
+  z-index: 1;
 }
