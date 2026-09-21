@@ -61,11 +61,11 @@ form.addEventListener("submit",function(event){
 
 document.addEventListener("keydown", function(event) {
 
-    if (event.key === "`") {
+    if (event.key === "6") {
 
         wallpaper.src="assets/wallpaper.mp4";
     }
-    else if(event.key==="Escape"){
+    else if(event.key==="7"){
          wallpaper.src="assets/wallpaper2.mp4";
     }
 });
