@@ -12,3 +12,18 @@
     background: rgba(0, 0, 0, 0.35);
       z-index: -1;
 }
+main{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#clock{
+  font-size:80px;
+  font-family: cursive;
+  color: white;
+  font-weight: 500;
+  top: 70px;
+  position: fixed;
+}
