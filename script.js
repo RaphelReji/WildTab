@@ -59,3 +59,13 @@ form.addEventListener("submit",function(event){
 });
 
 
+document.addEventListener("keydown", function(event) {
+
+    if (event.key === "`") {
+
+        wallpaper.src="assets/wallpaper.mp4";
+    }
+    else if(event.key==="Escape"){
+         wallpaper.src="assets/wallpaper2.mp4";
+    }
+});
