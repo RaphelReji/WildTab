@@ -131,3 +131,41 @@ main{
   height: 100%;
   z-index: 1;
 }
+#song-box{
+  text-align: center;
+  margin-top: 150px;
+  background-color: rgba(99, 97, 97, 0.274);
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid rgb(65, 64, 64);
+}
+#song-h1{
+  font-size: 20px;
+  font-weight: bold;
+  color: antiquewhite;
+}
+#play-btn{
+  font-size: 20px;
+  font-weight: bold;
+  background-color: aliceblue;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+#stop-btn{
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(194, 35, 35);
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
