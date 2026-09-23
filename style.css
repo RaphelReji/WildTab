@@ -161,11 +161,36 @@ main{
 #stop-btn{
   font-size: 20px;
   font-weight: bold;
-  background-color: rgb(194, 35, 35);
+  background-color: rgb(221, 74, 74);
   width: max-content;
   margin-left: auto;
   margin-right: auto;
   padding: 5px 10px;
   border-radius: 10px;
   margin-top: 10px;
+}
+.settings-vid{
+  position: relative;
+  width: 200px;
+  margin: 10px;
+  border: 2px solid yellowgreen;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.settings-vid:hover{
+  transform: scale(1.03);
+}
+#bg-box{
+    text-align: center;
+  margin-top: 50px;
+  background-color: rgba(99, 97, 97, 0.274);
+  margin-left: auto;
+  margin-right: auto;
+  width: min-content;
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid rgb(65, 64, 64);
+}
+#bg-change-text{
+  color: white;
 }
