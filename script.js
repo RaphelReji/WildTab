@@ -69,3 +69,15 @@ document.addEventListener("keydown", function(event) {
          wallpaper.src="assets/wallpaper2.mp4";
     }
 });
+
+const settingsBtn=document.getElementById("settings-icon");
+const settingsWindow=document.getElementById("settings-window");
+settingsBtn.addEventListener("click",function(){
+      if (settingsWindow.style.display==="block") {
+
+        settingsWindow.style.display="none";
+    }
+    else{
+        settingsWindow.style.display="block";
+    }
+});
