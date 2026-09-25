@@ -1,86 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WildTab</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <video autoplay muted loop playsinline id="wallpaper">
-    <source src="assets/wallpaper.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+      <source src="assets/wallpaper.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
 
-<div class="overlay"></div>
+    <div class="overlay"></div>
 
-<main>
-    
-    <div id="clock"></div>
-    <div id="date"></div>
+    <main>
+      <div id="clock"></div>
+      <div id="date"></div>
 
-    <form id="search-form">
-      <input id="search" type="text" placeholder="Search"
-      autocomplete="off">
-      <button type="submit">↗</button>
+      <form id="search-form">
+        <input
+          id="search"
+          type="text"
+          placeholder="Search"
+          autocomplete="off"
+        />
+        <button type="submit">↗</button>
+      </form>
 
-    </form>
-
-    <div id="icons-grid">
+      <div id="icons-grid">
+        <div class="icons-card">
+          <img src="assets/icons/hc.png" />
+          <div>HackClub</div>
+        </div>
 
         <div class="icons-card">
-            <img src="assets/icons/hc.png">
-            <div>HackClub</div>
+          <img src="assets/icons/chatgpt.png" />
+          <div>ChatGpt</div>
         </div>
 
-         <div class="icons-card">
-            <img src="assets/icons/chatgpt.png">
-            <div>ChatGpt</div>
+        <div class="icons-card">
+          <img src="assets/icons/yt.png" />
+          <div>YouTube</div>
         </div>
 
-         <div class="icons-card">
-            <img src="assets/icons/yt.png">
-            <div>YouTube</div>
+        <div class="icons-card">
+          <img src="assets/icons/claude.png" />
+          <div>Claude</div>
         </div>
+      </div>
 
-         <div class="icons-card">
-            <img src="assets/icons/claude.png">
-            <div>Claude</div>
-        </div>
+      <div id="greetings"></div>
 
-    </div>
-
-    <div id="greetings"></div>
-
-
-
-    <div>
-        <img src="assets/icons/settings.png" id="settings-icon">
-    </div>
-    <div id="settings-window">
+      <div>
+        <img src="assets/icons/settings.png" id="settings-icon" />
+      </div>
+      <div id="settings-window">
         <audio src="assets/forest.mp3" loop id="forest-song"></audio>
         <div id="song-box">
           <div id="song-h1">Forest Ambience Sound</div>
-           <div id="play-btn">PLAY</div>
+          <div id="play-btn">PLAY</div>
           <div id="stop-btn">STOP</div>
         </div>
 
-      <div id="bg-box">
-        <div id="bg-change-text">Background change</div>
+        <div id="bg-box">
+          <div id="bg-change-text">Background change</div>
 
-      <video src="assets/wallpaper.mp4" class="settings-vid" id="forest-bg-settings"></video>
-      
-      <video src="assets/wallpaper2.mp4" class="settings-vid" id="lake-bg-settings"></video>
+          <video
+            src="assets/wallpaper.mp4"
+            class="settings-vid"
+            id="forest-bg-settings"
+          ></video>
 
-
+          <video
+            src="assets/wallpaper2.mp4"
+            class="settings-vid"
+            id="lake-bg-settings"
+          ></video>
+        </div>
       </div>
+    </main>
 
-
-    </div>
-
-</main>
-
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

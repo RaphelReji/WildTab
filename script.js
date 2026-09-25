@@ -81,3 +81,14 @@ settingsBtn.addEventListener("click",function(){
         settingsWindow.style.display="block";
     }
 });
+
+const forestBg=document.getElementById("forest-bg-settings")
+const lakebg=document.getElementById("lake-bg-settings")
+
+forestBg.addEventListener("click",function(){
+    wallpaper.src="assets/wallpaper.mp4";
+});
+
+lakebg.addEventListener("click",function(){
+   wallpaper.src="assets/wallpaper2.mp4";
+});
