@@ -92,3 +92,13 @@ forestBg.addEventListener("click",function(){
 lakebg.addEventListener("click",function(){
    wallpaper.src="assets/wallpaper2.mp4";
 });
+
+const forestSong=document.getElementById("forest-song");
+const playSong=document.getElementById("play-btn");
+const pauseSong=document.getElementById("stop-btn");
+playSong.addEventListener("click",function(){
+    forestSong.play();
+});
+pauseSong.addEventListener("click",function(){
+    forestSong.pause();
+});
