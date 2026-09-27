@@ -130,6 +130,7 @@ main{
   height: 100%;
   z-index: 1;
   display: none;
+  animation: fadUP ease-in;
 }
 
 #song-box{
@@ -187,7 +188,7 @@ main{
   transition: 0.3s;
 }
 .settings-vid:hover{
-  transform: scale(1.03);
+  transform: scale(1.04);
 }
 #bg-box{
     text-align: center;
@@ -203,5 +204,8 @@ main{
 #bg-change-text{
   font-size: 20px;
   font-weight: bold;
-  color: antiquewhite;
+  color: rgb(241, 229, 216);
+}
+a{
+  text-decoration: none;
 }
