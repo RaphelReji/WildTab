@@ -209,3 +209,19 @@ main{
 a{
   text-decoration: none;
 }
+#danger-icon{
+  position: fixed;
+  width: 60px;
+  filter:brightness(1.2);
+  top: 40px;
+  left: 20px;
+  z-index: 2;
+  opacity: 0;
+  transition: 0.3s;
+}
+#danger-icon:hover{
+  opacity: 1;
+}
+#danger-icon:active{
+  padding: 5px;
+}
