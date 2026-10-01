@@ -102,3 +102,14 @@ playSong.addEventListener("click",function(){
 pauseSong.addEventListener("click",function(){
     forestSong.pause();
 });
+const dangerIcon=document.getElementById("danger-icon");
+const hackWindow=document.getElementById("hack-window");
+dangerIcon.addEventListener("click",function(){
+    if (hackWindow.style.display==="block") {
+
+        hackWindow.style.display="none";
+    }
+    else{
+        hackWindow.style.display="block";
+    }
+});

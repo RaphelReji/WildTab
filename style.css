@@ -234,10 +234,30 @@ a{
   color: rgb(0, 255, 0);
   font-family: 'Courier New', Courier, monospace;
   width: 100%;
+  align-items: center;
   z-index: 1;
+  display: none;
 }
 #h1-hack{
   font-size: 30px;
   text-align: center;
   font-weight: 500;
+}
+#hack-btb{
+  text-align: center;
+   justify-content: center;
+   margin-left: 300px;
+  padding: 10px 20px;
+  background-color: rgba(4, 245, 4, 0.836);
+  color: black;
+  width: max-content;
+  font-family: monospace;
+  font-weight: 800;
+  font-size: 30px;
+  border-radius: 50%;
+}
+#hacking-msg{
+  font-size: 25px;
+  text-align: center;
+  color: rgb(8, 241, 8);
 }
