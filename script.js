@@ -113,3 +113,34 @@ dangerIcon.addEventListener("click",function(){
         hackWindow.style.display="block";
     }
 });
+
+const body=document.getElementById("body");
+const hackMsg=document.getElementById("hacking-msg");
+const hackBtn=document.getElementById("hack-btn");
+hackBtn.addEventListener("click",function(){
+ setTimeout(() => {
+    hackMsg.textContent="hacking "
+}, 1000);   
+   
+
+setTimeout(() => {
+    hackMsg.textContent="hacking mode  "
+}, 2000);
+
+
+setTimeout(() => {
+    hackMsg.textContent="hacking mode activating "
+}, 3000);
+
+setTimeout(() => {
+    hackMsg.textContent="Activated "
+    hackWindow.style.display="none";
+}, 4000);
+
+
+setTimeout(() => {
+    wallpaper.style.display= "none"
+    body.style.color="green";
+}, 4500);
+
+});
