@@ -2,6 +2,7 @@
   margin: 0;
   font-family: cursive;
   background-color: black;
+  color: white;
 }
 #wallpaper{
   position: fixed;
@@ -27,7 +28,6 @@ main{
 #clock{
   font-size:80px;
   font-family: cursive;
-  color: white;
   font-weight: 500;
   top: 70px;
   position: fixed;
@@ -37,7 +37,6 @@ main{
   top:200px;
   position:fixed;
   font-family: cursive;
-  color: rgb(223, 221, 221);
 }
 #search-form {
     position: relative;
@@ -55,12 +54,10 @@ main{
   border: none;
   outline: none;
   background: transparent;
-  color: white;
   font-size: 18px;
   padding: 8px 16px;
 }
 #search-form  button{
-   color: white;
    border: none;
     border-radius: 12px;
     padding: 0 18px;
@@ -73,7 +70,6 @@ main{
   left: 60px;
   font-size: 40px;
   font-family: cursive;
-  color: white;
 }
 #icons-grid{
   width: max-content;
@@ -98,7 +94,6 @@ main{
      backdrop-filter: blur(15px);
     cursor: pointer;
     transition: 0.3s;
-    color: white;
     font-family: cursive;
 }
 .icons-card:hover{
@@ -148,7 +143,6 @@ main{
 #song-h1{
   font-size: 20px;
   font-weight: bold;
-  color: antiquewhite;
 }
 #play-btn{
   font-size: 20px;
@@ -205,10 +199,10 @@ main{
 #bg-change-text{
   font-size: 20px;
   font-weight: bold;
-  color: rgb(241, 229, 216);
 }
 a{
   text-decoration: none;
+  color: white;
 }
 #danger-icon{
   position: fixed;

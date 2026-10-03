@@ -114,6 +114,12 @@ dangerIcon.addEventListener("click",function(){
     }
 });
 
+const yt=document.getElementById("icons-card-yt");
+const claude=document.getElementById("icons-card-claude");
+const chatgpt=document.getElementById("icons-card-chatgpt");
+const hcCard=document.getElementById("icons-card-hc");
+const searchForm=document.getElementById("search-form");
+const iconCard=document.querySelector("icons-card");
 const body=document.getElementById("body");
 const hackMsg=document.getElementById("hacking-msg");
 const hackBtn=document.getElementById("hack-btn");
@@ -140,7 +146,12 @@ setTimeout(() => {
 
 setTimeout(() => {
     wallpaper.style.display= "none"
-    body.style.color="green";
+    body.style.color="green"
+    searchForm.style.background="rgba(61, 255, 2, 0.31)";
+    chatgpt.style.display="none";
+    yt.style.display="none";
+    claude.style.display="none";
+    hcCard.style.background="rgba(75, 216, 9, 0.45)";
 }, 4500);
 
 });
