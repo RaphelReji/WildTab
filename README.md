@@ -1,7 +1,7 @@
 # WildTab
 
 here i am introducing a wild new tab page called Wildtab.its nature themed and i also inspired by wallsflow newtab page its very cool i also
-wanted to make like that
+wanted to make like that . I Used html,css,and js to build it is actually quite small and simple web inspired by nature.
 
 
 ## Live Demo
@@ -10,12 +10,18 @@ wanted to make like that
 
 ## Screenshots
 
-![intro](assets/readme_images/img1.png)
-
+![home](assets/readme/home.png)
+![hackhome](assets/readme/hackhome.png)
 
 ## Features
 
 - Interactive design
+- search bar
+- real time and date
+- time greetings
+- backgroung changing
+- background music
+- hidden easter egg
 
 ## Installation to run locally
 
@@ -34,19 +40,18 @@ git clone https://github.com/RaphelReji/Builder-Signal
 
 
 ### How It Works
-You want to explore through your new tab, customise the theme, look out projects and more...
+You want to explore through your new tab, change background play music and find the easter egg hidden
 
 ## Design
 
-a nature themed
+A nature themed newtab with  hidden green effects
 
 ## What I Learned
-- a lot of things like the search bar
+- A lot of things like the search bar concept
 
 ## Credits 
  - background video taken from wallsflow website and it is used for uncommercial purpose
  - icons:Taken from icon8
- - if i forgot to credit you sorry and thanks!
 
  ## License
 

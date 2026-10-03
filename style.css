@@ -154,6 +154,7 @@ main{
   padding: 5px 10px;
   border-radius: 10px;
   margin-top: 10px;
+  color: #070707;
   transition: 0.3s;
 }
 #play-btn:hover{
