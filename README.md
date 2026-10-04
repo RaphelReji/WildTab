@@ -1,7 +1,10 @@
 # WildTab
 
-here i am introducing a wild new tab page called Wildtab.its nature themed and i also inspired by wallsflow newtab page its very cool i also
-wanted to make like that . I Used html,css,and js to build it is actually quite small and simple web inspired by nature.
+Here I am introducing WildTab, a wild new tab page with a nature-inspired design.
+
+I was inspired by Wallsflow's new tab page, especially its clean nature-focused visuals, and wanted to create something with a similar feeling while building my own version from scratch.
+
+WildTab is built using HTML, CSS, and JavaScript. It is a small and simple project designed to make the browser's new tab page feel more relaxing and connected to nature.
 
 
 ## Live Demo
@@ -15,13 +18,15 @@ wanted to make like that . I Used html,css,and js to build it is actually quite 
 
 ## Features
 
-- Interactive design
-- search bar
-- real time and date
-- time greetings
-- backgroung changing
-- background music
-- hidden easter egg
+- Nature-inspired interactive design
+- Search bar
+- Real-time date and clock
+- Time-based greetings
+- Changeable backgrounds
+- Background music
+- Hidden easter egg
+- Responsive layout
+- Simple and lightweight design
 
 ## Installation to run locally
 
@@ -38,6 +43,7 @@ git clone https://github.com/RaphelReji/Builder-Signal
 
 3. Open `index.html` in your browser.
 
+No server or additional dependencies are required.
 
 ### How It Works
 You want to explore through your new tab, change background play music and find the easter egg hidden
@@ -50,8 +56,9 @@ A nature themed newtab with  hidden green effects
 - A lot of things like the search bar concept
 
 ## Credits 
- - background video taken from wallsflow website and it is used for uncommercial purpose
+ - The background video was inspired by and taken from Wallsflow and is used for non-commercial purposes.
  - icons:Taken from icon8
+ - The overall concept was inspired by nature-themed new tab experiences such as Wallsflow, while the project itself was built as my own implementation.
 
  ## License
 
