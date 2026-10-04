@@ -9,7 +9,7 @@ WildTab is built using HTML, CSS, and JavaScript. It is a small and simple proje
 
 ## Live Demo
 
-[Open the live website](https://raphelreji.github.io/Builder-Signal/)
+[Open the live website](https://raphelreji.github.io/WildTab/)
 
 ## Screenshots
 
@@ -32,11 +32,11 @@ WildTab is built using HTML, CSS, and JavaScript. It is a small and simple proje
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/RaphelReji/Builder-Signal.git
+git clone https://github.com/RaphelReji/WildTab.git
 ```
 Repository url:
 ```bash
-git clone https://github.com/RaphelReji/Builder-Signal
+git clone https://github.com/RaphelReji/WildTab
 ```
 
 2. Open the project folder in VS Code or any code editor.
